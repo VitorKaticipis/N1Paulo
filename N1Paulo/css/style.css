@@ -1,0 +1,40 @@
+.imagem-pequena {
+    width: 600px;
+    float: center;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+
+#tabelaFuncionarios {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabelaFuncionarios th,
+#tabelaFuncionarios td {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+}
+
+#tabelaFuncionarios th {
+    background-color: #f2f2f2;
+}
+
+
+.acoes button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.acoes button:hover {
+    background-color: #0056b3;
+}
